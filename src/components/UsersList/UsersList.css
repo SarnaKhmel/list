@@ -1,0 +1,33 @@
+.container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  margin: 10px 0;
+  width: 60vw;
+  background-color: bisque;
+  border-radius: 15px;
+}
+
+.item {
+  width: 500px;
+  margin: 10px 5px;
+  background-color: rgb(214, 133, 34);
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+}
+
+.name {
+  width: 300px;
+  text-align: center;
+}
